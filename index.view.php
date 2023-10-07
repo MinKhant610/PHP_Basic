@@ -9,5 +9,16 @@
     <h1>
         <?= $greeting; ?>
     </h1>
+    <ul>
+        <?php 
+            foreach($names as $name){
+                echo "<li>$name</li>";
+            }
+        ?>
+        <!-- another for each -->
+        <?php foreach($names as $name) : ?>
+            <li><?= $name ?></li>
+        <?php endforeach; ?>
+    </ul>
 </body>
 </html>
