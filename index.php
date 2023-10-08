@@ -1,4 +1,5 @@
 <?php 
+require "functions.php";
 $greeting = "Hello world";
 //array
 
@@ -30,4 +31,6 @@ $task = [
 ];
 
 require "index.bool.php";
+
+// dd($task);
 ?>
