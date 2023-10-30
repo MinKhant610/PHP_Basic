@@ -33,4 +33,6 @@ $task = [
 require "index.bool.php";
 
 // dd($task);
+require "index.class.php";
+require "index.team.php";
 ?>
